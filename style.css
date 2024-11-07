@@ -1,0 +1,131 @@
+body {
+  overflow: scroll;
+  height: 100vh;
+  background: linear-gradient(to bottom, #251034, #b781ec);
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container ul {
+  background-color: #420a6b;
+}
+
+.btn {
+  background-color: #420a6b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.container ul li span {
+  text-align: center;
+  padding: 10px;
+  color: #d8c1e9;
+  border-radius: 4px;
+}
+
+.container ul li span.ssn,
+.container ul li span.name,
+.container ul li span.age,
+.container ul li span.delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container ul li span.ssn {
+  width: 100px;
+}
+
+.container ul li span.name {
+  width: 200px;
+}
+
+.container ul li span.age {
+  width: 50px;
+}
+
+.container ul li span.delete {
+  width: 100px;
+}
+
+.container ul li button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #a65eed;
+  position: fixed;
+  bottom: 3px;
+  width: 99%;
+  padding: 10px 0;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+footer .main-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav {
+  width: 100%;
+}
+
+footer nav form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav form input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer nav form input[type="submit"],
+footer nav form input[type="button"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b781ec;
+  color: white;
+  cursor: pointer;
+}
+
+footer nav form input[type="submit"]:hover,
+footer nav form input[type="button"]:hover {
+  background-color: #a06bd4;
+}
+
+.main-contain {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
